@@ -1,1 +1,35 @@
-
+{"orgId":"1201",
+"requestId":"CA2FF4DD555325082701111",
+"missionCode":"ST202508270111",
+"missionType":"RACK_MOVE",
+"viewBoardType":"搬运作业",
+"robotType":"LIFT",
+"robotModels":null,
+"robotIds":null,
+"priority":1,
+"containerModelCode":"",
+"containerCode":"",
+"templateCode":"",
+"lockRobotAfterFinish":false,
+"unlockRobotId":"",
+"unlockMissionCode":"",
+"idleNode":"",
+"missionData":[
+    {
+        "sequence":1,
+        "position":"01-XT2F-6681",
+        "type":"NODE_POINT",
+        "putDown":false,
+        "passStrategy":"AUTO",
+        "waitingMillis":0
+    },
+    
+    {
+        "sequence":2,
+        "position":"01-XT2F-3701",
+        "type":"NODE_POINT",
+        "putDown":true,
+        "passStrategy":"AUTO",
+        "waitingMillis":0
+    }
+    ]
